@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vegetable Website</title>
+<link rel="stylesheet" href="eatfresh.css"/>
+<script>
+    function stickyMenu()
+    {
+        var sticky=document.getElementById('sticky');
+        if(window.pageYOffset>220)
+        {
+            sticky.classList.add('sticky');
+        }
+        else
+        {
+            sticky.classList.remove('sticky');
+        }
+    }
+    window.onscroll=function()
+    {
+        stickyMenu();
+    }
+</script>
+
+</head>
+<body>
+    <div class="parallax">
+        <div class="page-title">Fresho Farm</div>
+    </div>
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="file:///C:/Users/ADMIN/OneDrive/Desktop/WT_Project/loginpageforwebsite.html" class="a-menu"><li>Login</li></a>
+            <a href="#" class="a-menu"><li>Home</li></a>
+            <a href="#" class="a-menu"><li>Vegetables</li></a>
+            <a href="#" class="a-menu"><li>Cart</li></a>
+        </ul>
+        <div class="search-box">
+            <form>
+                <input type="text" placeholder="Search...." name="search" class="search-input"/>
+            </form>
+        </div>
+    </div>
+<!--Home Page Begins-->
+    <div class="container">
+    <div class="categories">
+            <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\capsicum.jpg" class="item-image"/>
+            <div class="image-title">Capsicum</div>
+            <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\tomato.jpg" class="item-image"/>
+        <div class="image-title">Tomato</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\onion.jpg" class="item-image"/>
+        <div class="image-title">Onion</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\spinach.jpg" class="item-image"/>
+        <div class="image-title">Spinach</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\broccoli.jpg" class="item-image"/>
+        <div class="image-title">Broccoli</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\carrot.jpg" class="item-image"/>
+        <div class="image-title">Carrot</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\garlic.jpg" class="item-image"/>
+        <div class="image-title">Garlic</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\greenpea.jpg" class="item-image"/>
+        <div class="image-title">Green Peas</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\cabbage.jpg" class="item-image"/>
+        <div class="image-title">Cabbage</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\cauliflower.jpg" class="item-image"/>
+        <div class="image-title">Cauliflower</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\lady finger.jpg" class="item-image"/>
+        <div class="image-title">Lady Finger</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    <div class="categories">
+        <img src="C:\Users\ADMIN\OneDrive\Desktop\WT_Project\Images\bittergourd.jpg" class="item-image"/>
+        <div class="image-title">Bitter Gourd</div>
+        <button class="buynow-btn">Buy Now</button>
+    </div>
+    </div>
+</body>
+</html>
